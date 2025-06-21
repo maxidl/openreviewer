@@ -1,6 +1,7 @@
 # OpenReviewer: A Specialized Large Language Model for Generating Critical Scientific Paper Reviews
 
-[![Paper](https://img.shields.io/badge/Paper-NAACL%202025-red)](https://aclanthology.org/2025.naacl-demo.44/)
+[![Paper](https://img.shields.io/badge/Paper-NAACL%202025-red)](https://aclanthology.org/2025.naacl-demo.44)
+[![arXiv](https://img.shields.io/badge/arXiv-2412.11948-b31b1b)](http://arxiv.org/pdf/2412.11948)
 [![Demo](https://img.shields.io/badge/🤗-Demo-yellow)](https://huggingface.co/spaces/maxidl/openreviewer)
 [![Model](https://img.shields.io/badge/🤗-Model-blue)](https://huggingface.co/maxidl/Llama-OpenReviewer-8B)
 
@@ -51,32 +52,14 @@ Refer to [app.py](https://huggingface.co/spaces/maxidl/openreviewer/blob/main/ap
 - Optimizations: DeepSpeed ZeRO-3, Flash Attention V2, LIGER Kernel
 
 ### Review Template
-The output of OpenReviewer follows the provided structured template. By defaultit uses the ICLR2025 template.
+The output of OpenReviewer follows the provided structured template. The demo uses the ICLR2025 template by default.
 
 ## 📈 Evaluation Results
-
-### Recommendation Alignment
-- **55.5% exact match** with human reviewer recommendations
-- **0.96 average error** vs. human ratings (normalized 1-10 scale)
-- Significantly outperforms GPT-4o, Claude-3.5, and Llama models
-
-### Review Quality (Arena Evaluation)
-OpenReviewer wins against other LLMs in head-to-head comparisons:
-- vs. GPT-4o: **60% win rate**
-- vs. Claude-3.5-Sonnet: **69% win rate**  
-- vs. Llama-3.1-70B: **76% win rate**
-
-## ⚠️ Limitations & Ethical Considerations
-
-- **Not a replacement** for human peer review
-- Trained primarily on ML/AI venues (ICLR, NeurIPS)
-- Performance may vary for other domains
-- Potential bias from training data distribution
-- Should be used for **pre-submission feedback** only
+Refer to Section 4 in our [paper](https://aclanthology.org/2025.naacl-demo.44).
 
 ## 📚 Citation
 
-If you use OpenReviewer in your research, please cite:
+If you use OpenReviewer, the Llama-OpenReviewer-8B model or this repository's code in your research, please cite:
 
 ```bibtex
 @inproceedings{idahl-ahmadi-2025-openreviewer,
@@ -100,7 +83,8 @@ If you use OpenReviewer in your research, please cite:
 
 ## 🔗 Links
 
-- **Paper**: [arXiv:2412.11948](http://arxiv.org/pdf/2412.11948)
+- **Paper**: [ACL Anthology](https://aclanthology.org/2025.naacl-demo.44)
+- **Paper on arXiv**: [arXiv:2412.11948](http://arxiv.org/pdf/2412.11948)
 - **Demo**: [HuggingFace Spaces](https://huggingface.co/spaces/maxidl/openreviewer)
 - **Model**: [HuggingFace Hub](https://huggingface.co/maxidl/Llama-OpenReviewer-8B)
 
