@@ -1,4 +1,10 @@
-# OpenReviewer: A Specialized Large Language Model for Generating Critical Scientific Paper Reviews
+<div align="center">
+
+# OpenReviewer
+
+### A Specialized Large Language Model for Generating Critical Scientific Paper Reviews
+
+</div>
 
 [![Paper](https://img.shields.io/badge/Paper-NAACL%202025-red)](https://aclanthology.org/2025.naacl-demo.44)
 [![arXiv](https://img.shields.io/badge/arXiv-2412.11948-b31b1b)](http://arxiv.org/pdf/2412.11948)
