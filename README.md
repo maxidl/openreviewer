@@ -4,12 +4,13 @@
 
 ### A Specialized Large Language Model for Generating Critical Scientific Paper Reviews
 
-</div>
 
 [![Paper](https://img.shields.io/badge/Paper-NAACL%202025-red)](https://aclanthology.org/2025.naacl-demo.44)
 [![arXiv](https://img.shields.io/badge/arXiv-2412.11948-b31b1b)](http://arxiv.org/pdf/2412.11948)
 [![Demo](https://img.shields.io/badge/🤗-Demo-yellow)](https://huggingface.co/spaces/maxidl/openreviewer)
 [![Model](https://img.shields.io/badge/🤗-Model-blue)](https://huggingface.co/maxidl/Llama-OpenReviewer-8B)
+
+</div>
 
 **OpenReviewer** is an open-source system for generating high-quality peer reviews of machine learning and AI conference papers. At its core is **Llama-OpenReviewer-8B**, an 8B parameter language model specifically fine-tuned on 79,000 expert reviews from top conferences like ICLR and NeurIPS.
 
