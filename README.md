@@ -18,7 +18,7 @@
 
 Our evaluation on 400 test papers shows that OpenReviewer significantly outperforms general-purpose LLMs:
 
-![Results](results.png)
+<img src="results.png" width="958" alt="Performance comparison results" />
 
 ## 🚀 Quick Start
 
